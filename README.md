@@ -6,7 +6,7 @@
 
 - CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H
 
-- We responsibly disclosed our findings to the Sony in Aug. 2024. Sony acknowledged our findings in 
+- We responsibly disclosed our findings to the Sony in Aug. 2024. On Oct. 31, 2024, Sony acknowledged the findings.
 
 ## 1. Vulnerability Type
 
