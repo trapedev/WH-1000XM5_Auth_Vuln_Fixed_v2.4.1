@@ -26,31 +26,37 @@ Upon examining the Bluetooth packets, it appears that there is a flaw in the aut
 
 This section presents the devices and setup required for the PoC, as well as the steps to reproduce this vulnerability.
 
-### 4.1. PoC Devices
+### 4.1. Notation
 
-**Victim's Master Device**
+- Alice: Victim, Master
+- Bob: Victim, Slave
+- Mallory: Attacker
+
+### 4.2. PoC Devices
+
+**Alice's Specification**
 
 | Manufacturer | Model            | Operation System | Driver                         | Bluetooth Version |
 | ------------ | ---------------- | ---------------- | ------------------------------ | ----------------- |
 | Microsoft    | Surface Laptop 4 | Windows 11 Home  | Intel(R) Wireless Bluetooth(R) | 5.1               |
 
-**Victim's Slave Device**
+**Bob's Specification**
 
 | Manufacturer     | Model      | Bluetooth Version | Firmware Version |
 | ---------------- | ---------- | ----------------- | ---------------- |
 | Sony Corporation | WH-1000XM5 | 5.2               | 2.1.0            |
 
-**Attacker's Device**
+**Mallory's Specification**
 
 | Model                  | Operation System | System | Debian version | Kernel version | BlueZ version | Bluetooth Manufacturer | Bluetooth Version |
 | ---------------------- | ---------------- | ------ | -------------- | -------------- | ------------- | ---------------------- | ----------------- |
 | Raspberry Pi 4 Model B | Raspberry Pi OS  | 32bit  | 11 bullseye    | 6.1            | 5.55          | Cypress Semiconductor  | 5.0               |
 
-### 4.2. PoC Setup
+### 4.3. PoC Setup
 
 Pair the WH-1000XM5 and Surface Laptop 4 in advance.
 
-### 4.3. PoC Procedure
+### 4.4. PoC Procedure
 
 1. Spoof the Bluetooth address of the Raspberry Pi and the Bluetooth name of its adapter to match those of the Surface Laptop 4.
 2. Set the Bluetooth adapter state of the Raspberry Pi to Discoverable.
@@ -60,14 +66,22 @@ Pair the WH-1000XM5 and Surface Laptop 4 in advance.
 
 If you follow these steps in order, the WH-1000XM5 will pair and connect to the Raspberry Pi despite not being in pairing mode. Please note that the Raspberry Pi has **never previously paired** with the WH-1000XM5.
 
-### 4.4. PoC Packets
+The following image is the sequence diagram of this vulnerability.
+
+<img src="https://github.com/user-attachments/assets/6adaba13-275a-46aa-a8c3-1f1292360271" width="75%"/>
+
+### 4.5. PoC Packets
 
 - [v2.1.0](./packets/WH-1000XM5_v2.1.0.pcapng)
 - [v2.3.1](./packets/WH-1000XM5_v2.3.1.pcapng)
 
 ## 5. Responsible Disclosure
 
-On Aug. 6, 2024, we reported this vulnerability to Sony through HackerOne. On Oct. 31, 2024, Sony acknowledged the findings. On 27 February 2025, a patch for this vulnerability was released as v2.4.1.
+On August 6, 2024, we reported this vulnerability to Sony via HackerOne.
+
+On October 31, 2024, Sony acknowledged the findings.
+
+On February 27, 2025, a patch for this vulnerability was released as v2.4.1.
 
 ## 6. References
 
