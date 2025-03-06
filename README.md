@@ -4,7 +4,7 @@
 
 - This report details an authentication vulnerability identified in Sony's WH-1000XM5 product.
 
-- CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H
+- CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:H
 
 - We responsibly disclosed our findings to the Sony in Aug. 2024. On Oct. 31, 2024, Sony acknowledged the findings.
 
