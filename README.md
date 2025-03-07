@@ -68,7 +68,7 @@ If you follow these steps in order, the WH-1000XM5 will pair and connect to the 
 
 The following image is the sequence diagram of this vulnerability.
 
-<img src="https://github.com/user-attachments/assets/6adaba13-275a-46aa-a8c3-1f1292360271" width="75%"/>
+<img src="https://github.com/user-attachments/assets/6adaba13-275a-46aa-a8c3-1f1292360271" height="75%"/>
 
 ### 4.5. PoC Packets
 
@@ -85,11 +85,22 @@ On February 27, 2025, a patch for this vulnerability was released as v2.4.1.
 
 ## 6. References
 
-- https://www.sony.com/electronics/support/wireless-headphones-bluetooth-headphones/wh-1000xm5/software/00278246 (Access: 4 March, 2025)
 - https://www.sony.jp/headphone/update/ (Access: 4 March, 2025)
+- https://www.sony.com/electronics/support/wireless-headphones-bluetooth-headphones/wh-1000xm5/software/00278246 (Access: 4 March, 2025)
 - https://www.sony-asia.com/electronics/support/wireless-headphones-bluetooth-headphones/wh-1000xm5/software/00278245 (Access: 4 March, 2025)
 
-## 7. Others
+## 7. Acknowledgements from Sony
 
-Discoverers: Keiichiro KIMURA, Prof. Hiroki KUZUNO, Prof. Yoshiaki SHIRAISHI, and Prof. Masakatu MORII from ES3, Kobe University.
-(as of  4 March, 2025)
+- In Japanese
+
+![image](https://github.com/user-attachments/assets/6101582c-ac6f-4a8d-92bd-23876a470ad1)
+
+- In Englesh
+
+The English version of the acknowledgements has not yet been published or updated as of 7 March 2025.
+
+## 8. Others
+
+Discoverer: Keiichiro KIMURA from ES3, Kobe University (as of  4 March, 2025)
+
+Collaborators: Prof. Hiroki KUZUNO, Prof. Yoshiaki SHIRAISHI, and Prof. Masakatu MORII 
