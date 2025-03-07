@@ -95,7 +95,7 @@ On February 27, 2025, a patch for this vulnerability was released as v2.4.1.
 
 ![image1](https://github.com/user-attachments/assets/6101582c-ac6f-4a8d-92bd-23876a470ad1)
 
-- In Englesh
+- In English
 
 ![image2](https://github.com/user-attachments/assets/1892ed58-bf09-4fd8-b1d0-c08979bf9da6)
 
