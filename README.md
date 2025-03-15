@@ -104,9 +104,9 @@ On February 27, 2025, a patch for this vulnerability was released as v2.4.1.
 
 Discoverer: Keiichiro KIMURA from ES3, Kobe University (as of  4 March, 2025)
 
-Collaborators: Prof. Hiroki KUZUNO, Prof. Yoshiaki SHIRAISHI, and Prof. Masakatu MORII 
+Collaborators: Prof. Hiroki KUZUNO, Prof. Yoshiaki SHIRAISHI, and Prof. Masakatu MORII (Kobe University)
 
-This report has been selected as Sony's Hacker of the Month for March 2025 on HackerOne!
+Our contributions have been selected as Sony's Hacker of the Month for March 2025 on HackerOne!
 
 ![image3](https://github.com/user-attachments/assets/0499ee18-e92e-4bee-a66f-13bd51f769a1)
 
